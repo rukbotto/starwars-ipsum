@@ -3,8 +3,12 @@ from setuptools import find_packages, setup
 
 def get_readme():
     readme = ''
-    with open('README.md', 'r') as file_data:
-        readme = file_data.read()
+    try:
+        import pypandoc
+        readme = pypandoc.convert('README.md', 'rst')
+    except (ImportError, IOError):
+        with open('README.md', 'r') as file_data:
+            readme = file_data.read()
     return readme
 
 
