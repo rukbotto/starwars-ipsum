@@ -13,7 +13,7 @@ def get_readme():
 
 
 setup(
-    name='starwars_ipsum',
+    name='starwars-ipsum',
     version='0.0.1',
     author='Jose Miguel Venegas Mendoza',
     author_email='jvenegas@rukbottoland.com',
