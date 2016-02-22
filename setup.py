@@ -14,7 +14,7 @@ def get_readme():
 
 setup(
     name='starwars-ipsum',
-    version='0.0.1',
+    version='0.0.2',
     author='Jose Miguel Venegas Mendoza',
     author_email='jvenegas@rukbottoland.com',
     description=('A simple utility that generates placeholder text from Star '
