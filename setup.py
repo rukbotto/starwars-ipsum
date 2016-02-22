@@ -22,7 +22,7 @@ setup(
     long_description=get_readme(),
     license='BSD',
     keywords='starwars utilities ipsum',
-    url='',
+    url='https://github.com/rukbotto/starwars-ipsum',
     packages=find_packages(),
     package_data={
         'starwars_ipsum': ['*.txt']
